@@ -31,6 +31,12 @@ public class AppController {
 		
 		return "welcome to admin1";
 	}
+	
+	@GetMapping("admin1")
+	public String admin3() {
+		
+		return "welcome to admin1";
+	}
 
 
 }
