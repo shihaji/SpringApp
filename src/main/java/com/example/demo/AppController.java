@@ -23,7 +23,7 @@ public class AppController {
 	@GetMapping("admin1")
 	public String admin1() {
 		
-		return "welcome to admin1 have a nice day";
+		return "welcome to admin1";
 	}
 	
 
