@@ -20,6 +20,12 @@ public class AppController {
 		return "welcome to admin have a nice day";
 	}
 	
+	@GetMapping("admin1")
+	public String admin1() {
+		
+		return "welcome to admin1 have a nice day";
+	}
+	
 
 
 }
